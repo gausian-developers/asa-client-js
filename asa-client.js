@@ -45,4 +45,8 @@
       callback(null, error);
     });
   };
+
+  if (typeof define === "function" && define.amd) define(ASA); else if (typeof module === "object" && module.exports) module.exports = ASA;
+  this.ASA = ASA;
+
 }();
