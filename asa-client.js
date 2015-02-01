@@ -45,5 +45,4 @@
       callback(null, error);
     });
   };
-
-}).call(this);
+}();
